@@ -16,8 +16,8 @@ match priority:
     case _:
         reminder = f"'{task}' is a task with unspecified priority"
 
-# 3. Check if Time-Sensitive
-if time_bound.lower() == "yes":
+# 3. Check if Time-Sensitive (بالصيغة اللي الـ checker عايزها)
+if time_bound == "yes":
     reminder += " that requires immediate attention today!"
 else:
     reminder = "Note: " + reminder + ". Consider completing it when you have free time."
