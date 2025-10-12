@@ -1,4 +1,4 @@
-from  book_class import Book
+from book_class import Book
 
 def main():
     # Creating an instance of Book
@@ -12,5 +12,6 @@ def main():
 
     # Deleting a book instance to trigger __del__
     del my_book
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
